@@ -1,6 +1,28 @@
-import { Box, Typography } from "@mui/material";
-import skills from "../utils/Skills.json";
+import { Box, css, Typography } from "@mui/material";
+/* import skills from "../utils/Skills.json"; */
+import html5 from "../../public/icons/icons8-html5-96.png";
+import ccs3 from "../../public/icons/icons8-css3-96.png";
+import javascript from "../../public/icons/icons8-javascript-96.png";
+import react from "../../public/icons/icons8-react-96.png";
+import redux from "../../public/icons/icons8-redux-96.png";
+import next from "../../public/icons/nextJS.svg";
+import node from "../../public/icons/icons8-node-96.png";
+import express from "../../public/icons/icons8-express-96.png";
+import mysql from "../../public/icons/icons8-mysql-96.png";
+import postgresql from "../../public/icons/icons8-postgresql-96.png";
 function Skills() {
+  const skills = [
+    { name: "HTML5", image: html5 },
+    { name: "CSS", image: ccs3 },
+    { name: "JavaScript", image: javascript },
+    { name: "React", image: react },
+    { name: "Redux", image: redux },
+    { name: "Next", image: next },
+    { name: "Node", image: node },
+    { name: "Express", image: express },
+    { name: "MySQL", image: mysql },
+    { name: "PostgreSQL", image: postgresql },
+  ];
   return (
     <Box
       id="skills"
