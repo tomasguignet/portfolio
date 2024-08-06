@@ -75,14 +75,14 @@ function Projects() {
           onClose={() => handleClose("henryFood")}
         >
           <Box
-            height="9rem"
+            height="10rem"
             bgcolor="primary.contrastText"
             paddingX="1rem"
             paddingY="0.7rem"
             display="flex"
             flexDirection="column"
           >
-            <Typography marginBottom="1.5rem">
+            <Typography marginBottom="1.2rem">
               An application that retrieves information about food recipes from
               an external API, allowing filtering by name, diet, and sorting by
               rating or name. Additionally, users can create new recipes, modify
@@ -130,16 +130,22 @@ function Projects() {
             }}
           />
         </Box>
-        <Dialog open={projects.iCare} onClose={() => handleClose("iCare")}>
+        <Dialog
+          maxWidth="40vw"
+          open={projects.iCare}
+          onClose={() => handleClose("iCare")}
+        >
           <Box
             height="16rem"
+            maxWidth="37vw"
+            overflow="hidden"
             bgcolor="primary.contrastText"
             paddingX="1rem"
             paddingY="0.7rem"
             display="flex"
             flexDirection="column"
           >
-            <Typography fontSize="15px" marginBottom="1.5rem">
+            <Typography fontSize="0.95rem" marginBottom="1.5rem">
               An online clinic management application offers various features
               for registered users including scheduling appointments, virtual
               consultations, and maintaining medical records. Users can also
@@ -225,16 +231,25 @@ function Projects() {
             }}
           />
         </Box>
-        <Dialog open={projects.ubuntu} onClose={() => handleClose("ubuntu")}>
+        <Dialog
+          maxWidth="38vw"
+          open={projects.ubuntu}
+          onClose={() => handleClose("ubuntu")}
+        >
           <Box
-            height="12rem"
+            height="10rem"
+            maxWidth="38vw"
             bgcolor="primary.contrastText"
             paddingX="1rem"
             paddingY="0.7rem"
             display="flex"
             flexDirection="column"
           >
-            <Typography fontSize="15px" marginBottom="1.5rem">
+            <Typography
+              fontSize="0.9rem"
+              marginBottom="1.5rem"
+              overflow="hidden"
+            >
               It is an app designed to display micro-enterprise ideas aimed at
               creating environmental and social impact, attracting investors
               interested in contributing to this change. Users can explore
