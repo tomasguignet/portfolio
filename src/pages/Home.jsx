@@ -1,7 +1,7 @@
 import NavBar from "../components/NavBar";
 import { Box, Button, Typography } from "@mui/material";
 import Cv from "../../public/CV+TOMAS+GUIGNET+COMPLETO.pdf";
-import github from "../../public/icons8-github-96.png";
+import github from "../../public/icons/icons8-github-96.png";
 import GitHubIcon from "@mui/icons-material/GitHub";
 
 function Home() {
