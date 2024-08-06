@@ -1,0 +1,13 @@
+
+[
+    {"name": "HTML5", "image": "../../public/icons8-html5-96.png"},
+    {"name": "CSS", "image": "../../public/icons8-css3-96.png"},
+    {"name": "JavaScript", "image": "../../public/icons8-javascript-96.png"},
+    {"name": "React", "image": "../../public/icons8-react-96.png"},
+    {"name": "Redux", "image": "../../public/icons8-redux-96.png"},
+    {"name": "Next", "image": "../../public/nextJS.svg"},
+    {"name": "Node", "image": "../../public/icons8-node-96.png"},
+    {"name": "Express", "image": "../../public/icons8-express-96.png"},
+    {"name": "MySQL", "image": "../../public/icons8-mysql-96.png"},
+    {"name": "PostgreSQL", "image": "../../public/icons8-postgresql-96.png"}
+]

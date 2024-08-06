@@ -1,0 +1,48 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  background: none;        
+  color: inherit;          
+  border: none;            
+  padding: 0;              
+  margin: 0;               
+  font: inherit;           
+  outline: none;
+}
+
+#root {
+  padding: 0;
+}
+
+.Skill-Card div {
+  transition: transform 0.1s ease-in-out;
+}
+
+.Skill-Card :hover {
+  transform: scale(1.1);
+}
+
+.project {
+  transition: filter 0.1s ease-in-out;
+}
+
+.project:hover {
+  filter: brightness(80%);
+}
+
+
+@media screen and (max-width: 884.800px) {
+  .bodyHome {
+    padding-left: 13% !important;
+
+  }
+}
+
+
